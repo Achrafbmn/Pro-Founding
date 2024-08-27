@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkbuilding</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="stylesheet" href="../src/main.css">
+</head>
+<body class="bg-gray-200">
+    <header class="header">
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+          <div class="flex h-16 items-center justify-between">
+            <div class="md:flex md:items-center md:gap-12">
+              <a class="block text-teal-600" href="../vivo/index.html">
+                <span class="sr-only  font-bold ">PRO-FOUNDING</span>
+                <a href="../vivo/index.html" class="title1  hover:text-gray-500/75">PRO-FOUNDING</a>
+              </a>
+            </div>
+      
+            <div class="hidden md:block">
+              <nav aria-label="Global">
+                <ul class="flex items-center gap-6 text-sm">
+                  <li>
+                    <a class="text-yellow-500 font-bold transition hover:text-gray-500/75 " href="../vivo/About-Us.html" > About </a>
+                  </li>
+      
+                  <li>
+                    <a class="text-yellow-500 font-bold transition hover:text-gray-500/75" href="../vivo/tech-seo.html"> Technical SEO</a>
+                  </li>
+      
+                  <li>
+                    <a class="text-yellow-500 font-bold transition hover:text-gray-500/75" href="../vivo/seo-content.html"> SEO content </a>
+                  </li>
+      
+                  <li>
+                    <a class="text-yellow-500 font-bold transition hover:text-gray-500/75" href="../vivo/linkbuiling.html"> Linkbuilding  </a>
+                  </li>
+    
+                  <li>
+                    <a class="text-yellow-500 font-bold transition hover:text-gray-500/75" href="../vivo/seo-analyses.html"> SEO-analyses </a>
+                  </li>
+      
+                  <li>
+                    <a class="text-yellow-500 font-bold transition hover:text-gray-500/75" href="../vivo/blog.html"> Blog </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+      
+    
+            
+            <div class="flex items-center gap-4">
+              <div class="sm:flex sm:gap-4">
+                <a class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow" href="../vivo/contcat-us.html">
+                  Contact
+                </a>
+                
+                <!--
+                <div class="hidden sm:flex">
+                  <a
+                    class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+                    href="#"
+                  >
+                    Register
+                  </a>
+                </div>
+              </div>
+      
+              <div class="block md:hidden">
+                <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </header>
+
+      <div class="linkbuilding-intro bg-gray-40 mt-0" >
+        <p class="text-center font-bold text-7xl mt-12 ">
+            What Is Link Building?
+        </p>
+        <div class="text-intro-1 font-serif mt-10">
+            <div class="max-w-md mx-auto mt-20">
+                <p class="leading-relaxed">
+                    Within SEO, link building plays an important role in driving organic traffic via search engines, especially in competitive industries. When combined with strong technical SEO foundations, great on-page SEO, excellent content, and a good user experience, link building can be super effective at driving more organic traffic.
+                    Today, the need for quality, relevance, and authenticity has never been more important. While low-quality, spammy link building techniques can work, they shouldn’t play a part in a strategy for an organization who is building for long-term organic search success
+                    <span class="hidden" id="more-text">
+                        Arguably, link building these days is more akin to great marketing, and the organizations who understand this are usually the ones who win long-term. But that doesn’t mean that there isn’t a technical aspect to building links or that all techniques need to revolve around your product. We’ll see that there's still far more to it than this, and far more to understand than ever before.
+                        This guide is designed to get you going quickly, and in the right direction. There's a lot to take in, but we've broken everything up into easy-to-digest chapters and have included lots of examples along the way.
+                        Link building is the process of acquiring hyperlinks from other websites to your own. A hyperlink (usually just called a link) is a way for users to navigate between pages on the Internet. Search engines use links to crawl the web. They will crawl the links between the individual pages on your website, and they will crawl the links between entire websites.
+                        Not all links are deliberately built by SEOs or marketers. Many of them will be created for a range of reasons such as a journalist covering a news story and linking to a source, or a blogger who loves their new coffee machine so much that they link to the retailer who sold it to them.
+                        Acquiring links that you didn’t ask for is the nirvana of SEO. It's always something that you should be striving for and building towards over the long term. You do this by putting in the work to make your website link-worthy, whether that’s through a great product or aspect of your service, or via producing great content that is referenced by other websites.
+                        Alongside this long-term approach, you can also leverage a range of link building techniques which allow you to build your authority and increase your chances of ranking well and getting traffic from organic search.
+                    </span>
+                </p>
+                <button id="toggle-btn" class="mt-4 text-blue-500 focus:outline-none hover:text-neutral-700">Read More</button>
+                <button id="hide-btn" class="hidden mt-4 text-blue-500 focus:outline-none hover:text-neutral-700">Hide</button>
+            </div>
+            
+            <script>
+                const moreTextEl = document.getElementById('more-text');
+                const toggleBtnEl = document.getElementById('toggle-btn');
+                const hideBtnEl = document.getElementById('hide-btn');
+            
+                toggleBtnEl.addEventListener('click', () => {
+                    moreTextEl.classList.toggle('hidden');
+                    toggleBtnEl.classList.toggle('hidden');
+                    hideBtnEl.classList.toggle('hidden');
+                });
+            
+                hideBtnEl.addEventListener('click', () => {
+                    moreTextEl.classList.toggle('hidden');
+                    toggleBtnEl.classList.toggle('hidden');
+                    hideBtnEl.classList.toggle('hidden');
+                });
+            </script>
+        </div>
+      </div>
+
+      <div class="linkbuilding-body">
+        <section class="overflow-hidden bg-gray-200 py-8 sm:py-16">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+              <div class="lg:pr-8 lg:pt-4">
+                <div class="lg:max-w-lg">
+                  <h2 class="text-base font-semibold leading-7 text-indigo-600">SEO</h2>
+                  <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Lorem ipsum init</p>
+                  <p class="mt-6 text-lg leading-8 text-gray-600">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quia sint, doloribus nostrum, cum facere earum saepe quidem iste sequi molestias aliquam dolorum vel vero error, dolore eligendi animi unde!
+                  </p>
+                  <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                    <div class="relative pl-9">
+                      <dt class="inline font-semibold text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                          fill="currentColor" aria-hidden="true" class="absolute left-1 top-1 h-5 w-5 text-indigo-600">
+                          <path
+                            d="M3.196 12.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 12.87z">
+                          </path>
+                          <path
+                            d="M3.196 8.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 8.87z">
+                          </path>
+                          <path
+                            d="M10.38 1.103a.75.75 0 00-.76 0l-7.25 4.25a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.76 0l7.25-4.25a.75.75 0 000-1.294l-7.25-4.25z">
+                          </path>
+                        </svg>Template driven
+                      </dt>
+                      <dd class="inline">Inspired by Sendgrid, Mailchimp, and Postmark, we allow you to create and apply
+                        templated content to your media.
+                      </dd>
+                    </div>
+                    <div class="relative pl-9">
+                      <dt class="inline font-semibold text-gray-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                          class="absolute left-1 top-1 h-5 w-5 text-indigo-600">
+                          <path fill-rule="evenodd"
+                            d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Simple, REST
+                      </dt>
+                      <dd class="inline">A simple REST API that allows you to create, generate, and manage your content.</dd>
+                    </div>
+                    <div class="relative pl-9">
+                      <dt class="inline font-semibold text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                          fill="currentColor" aria-hidden="true" class="absolute left-1 top-1 h-5 w-5 text-indigo-600">
+                          <path fill-rule="evenodd"
+                            d="M14.5 10a4.5 4.5 0 004.284-5.882c-.105-.324-.51-.391-.752-.15L15.34 6.66a.454.454 0 01-.493.11 3.01 3.01 0 01-1.618-1.616.455.455 0 01.11-.494l2.694-2.692c.24-.241.174-.647-.15-.752a4.5 4.5 0 00-5.873 4.575c.055.873-.128 1.808-.8 2.368l-7.23 6.024a2.724 2.724 0 103.837 3.837l6.024-7.23c.56-.672 1.495-.855 2.368-.8.096.007.193.01.291.01zM5 16a1 1 0 11-2 0 1 1 0 012 0z"
+                            clip-rule="evenodd"></path>
+                          <path
+                            d="M14.5 11.5c.173 0 .345-.007.514-.022l3.754 3.754a2.5 2.5 0 01-3.536 3.536l-4.41-4.41 2.172-2.607c.052-.063.147-.138.342-.196.202-.06.469-.087.777-.067.128.008.257.012.387.012zM6 4.586l2.33 2.33a.452.452 0 01-.08.09L6.8 8.214 4.586 6H3.309a.5.5 0 01-.447-.276l-1.7-3.402a.5.5 0 01.093-.577l.49-.49a.5.5 0 01.577-.094l3.402 1.7A.5.5 0 016 3.31v1.277z">
+                          </path>
+                        </svg>Developer friendly </dt>
+                      <dd class="inline">Documented and easy to use, we make it easy to integrate with your existing workflow.
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
+                <div class="mt-10 flex items-center gap-x-6">
+                  <a href="../vivo/contcat-us.html"
+                    class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get Started
+                  </a>
+                </div>
+              </div><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
+            </div>
+          </div>
+        </section>
+      </div>
+
+        <div class="bottom-linkbuilding">
+          <footer>
+            <div class="bg-blue-800 py-4 text-white leading-7 mt-36">
+              <div class="container px-4 mx-auto">
+                <div class="-mx-4 flex flex-wrap justify-between">
+                  <div class="px-4 my-4 w-full xl:w-1/5">
+                    <a href="../vivo/index.html" class="block w-56 mb-10">
+                      <!--<svg version="1.1" viewBox="0 0 3368 512" xmlns="http://www.w3.org/2000/svg">-->
+                        <g fill="none" fill-rule="evenodd">
+                          <g transform="translate(0 -75)">
+                            <g transform="translate(0 75)">
+                              <rect width="512" height="512" rx="128" fill="#3D5AFE"></rect>
+                              <rect x="149" y="176" width="220" height="220" fill="#fff"></rect>
+                              <circle cx="259" cy="156" r="40" fill="#fff"></circle>
+                              <circle cx="369" cy="286" r="40" fill="#2962FF"></circle>
+                            </g>
+                            <text fill="white" font-family="Nunito-Bold, Nunito" font-size="540" font-weight="bold">
+                              <tspan x="654" y="518" class="text-3xl text-gray-400 hover:text-gray-600">PRO-FOUNDING</tspan>
+                            </text> 
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                    <p class="text-justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet est iusto aliquid placeat aut at assumenda, beatae nesciunt adipisci inventore vero recusandae perferendis optio repellat tenetur eum quod. Neque, debitis.
+                    </p>
+                  </div>
+        
+                  <div class="px-4 my-4 w-full sm:w-auto">
+                    <div>
+                      <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">Company</h2>
+                    </div>
+                    <ul class="leading-8">
+                      <li><a href="../vivo/About-Us.html" class="hover:text-blue-400">About Us</a></li>
+                      <li><a href="../vivo/terms.html" class="hover:text-blue-400">Terms &amp; Conditions</a></li>
+                      <li><a href="../vivo/privacy.html" class="hover:text-blue-400">Privacy Policy</a></li>
+                      <li><a href="../vivo/contcat-us.html" class="hover:text-blue-400">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="px-4 my-4 w-full sm:w-auto">
+                    <div>
+                      <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">Blog</h2>
+                    </div>
+                    <ul class="leading-8">
+                      <li><a href="#" class="hover:text-blue-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+                      <li><a href="#" class="hover:text-blue-400">Lorem ipsum dolor sit amet</a></li>
+                      <li><a href="#" class="hover:text-blue-400">How SEO Can Help Your Productivity?</a></li>
+                      <li><a href="#" class="hover:text-blue-400">5 Tips to Make Responsive Website</a></li>
+                      <li><a href="../vivo/blog.html" class="hover:text-blue-400">See More</a></li>
+                    </ul>
+                  </div>
+                  <div class="px-4 my-4 w-full sm:w-auto xl:w-1/5">
+                    <div>
+                      <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">Connect With Us</h2>
+                    </div>
+                    <a href="https://fr.search.yahoo.com/search?fr=mcafee&type=E210FR91105G0&p=facebook" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+                      <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                      </svg>
+                    </a>
+                    <a href="https://fr.search.yahoo.com/search?fr=mcafee&type=E210FR91105G0&p=twitter" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+                      <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                      </svg>
+                    </a>
+                    <a href="https://fr.search.yahoo.com/search?fr=mcafee&type=E210FR91105G0&p=instagram" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+                      <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                      </svg>
+                    </a>
+                    <a href="https://fr.search.yahoo.com/search?fr=mcafee&type=E210FR91105G0&p=github" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400">
+                      <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                      </svg>
+                    </a>
+                    <a href="https://fr.search.yahoo.com/search?fr=mcafee&type=E210FR91105G0&p=youtube" class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400">
+                      <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-indigo-700 py-4 text-gray-100">
+              <div class="container mx-auto px-4">
+                <div class="-mx-4 flex flex-wrap justify-between">
+                  <div class="px-4 w-full text-center sm:w-auto sm:text-left">
+                    Copyright © 2024
+                    <script>new Date().getFullYear() > 2024 && document.write("- " + new Date().getFullYear())</script>- 2024
+                    PRO-FOUNDING. All Rights Reserved.
+                  </div>
+                  <!--<div class="px-4 w-full text-center sm:w-auto sm:text-left">
+                    Made with ❤️ by PRO-FOUNDING.
+                  </div>-->
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+</body>
+</html>

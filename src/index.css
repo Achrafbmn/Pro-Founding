@@ -1,0 +1,403 @@
+.big-intro-1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #FFDB58;
+}
+.big-intro-1 .big-intro-1-H1 {
+  -webkit-text-decoration: underline solid 10px rgb(107, 190, 48);
+          text-decoration: underline solid 10px rgb(107, 190, 48);
+}
+.big-intro-1 .big-intro-1-H2 {
+  -webkit-text-decoration: underline solid 10px rgb(107, 190, 48);
+          text-decoration: underline solid 10px rgb(107, 190, 48);
+}
+.big-intro-1 .big-intro-1-H3 {
+  -webkit-text-decoration: underline solid 10px rgb(107, 190, 48);
+          text-decoration: underline solid 10px rgb(107, 190, 48);
+}
+
+body {
+  position: relative;
+}
+
+.header {
+  background-color: #000080;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 4rem;
+}
+
+.title1 {
+  color: #d3d3d3;
+  margin-left: -1cm;
+  font-weight: bolder;
+}
+
+.big-intro-1 {
+  padding-left: 1.5cm;
+  line-height: 1.4;
+  border: 3px solid #FFDB58;
+  margin-top: 1.7cm;
+  position: absolute;
+  font-size: 100px;
+  width: 100%;
+  height: 16cm;
+}
+
+.about-us-body {
+  margin-top: 13.3cm;
+  position: absolute;
+  width: 100%;
+  height: 16cm;
+}
+
+.about-us-section-mp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3cm;
+  position: absolute;
+  width: 40%;
+  height: 16cm;
+}
+
+.decore-au {
+  background-color: #FFDB58;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 19cm;
+  margin-top: 0.7cm;
+  width: 45%;
+  height: 91%;
+}
+.decore-au .decore-1-au {
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+.decore-au .decore-2-au {
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 3.5cm;
+  margin-top: 5.7cm;
+  width: 55%;
+  height: 3cm;
+}
+
+.tech-seo-body {
+  margin-top: 16.3cm;
+  position: absolute;
+  width: 100%;
+  height: 18cm;
+}
+
+.Technical-SEO-mp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3cm;
+  position: absolute;
+  width: 40%;
+  height: 20cm;
+}
+
+.decore-technical-seo {
+  background-color: #FFDB58;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 19cm;
+  margin-top: 2.6cm;
+  width: 45%;
+  height: 14.7cm;
+}
+
+.ts-decore-2 {
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+
+.ts-decore-3 {
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 3.5cm;
+  margin-top: 5.7cm;
+  width: 55%;
+  height: 3cm;
+}
+
+.seo-content-body {
+  margin-top: 33.3cm;
+  position: absolute;
+  width: 100%;
+  height: 18cm;
+}
+
+.seo-content-mp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3cm;
+  position: absolute;
+  width: 40%;
+  height: 20cm;
+}
+
+.decore-seo-content {
+  background-color: #FFDB58;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 19cm;
+  margin-top: 3.6cm;
+  width: 45%;
+  height: 13cm;
+}
+
+.decore-sc {
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+
+.sc-decore-2 {
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 3.5cm;
+  margin-top: 5.7cm;
+  width: 55%;
+  height: 3cm;
+}
+
+.linkbuiling-body {
+  margin-top: 51.3cm;
+  position: absolute;
+  width: 100%;
+  height: 18cm;
+}
+
+.linkbuilding-mp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3cm;
+  position: absolute;
+  width: 40%;
+  height: 20cm;
+}
+
+.decore-linkbuilding {
+  background-color: #FFDB58;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 19cm;
+  margin-top: 2.7cm;
+  width: 45%;
+  height: 14.5cm;
+}
+
+.decore-linkbuiling {
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+
+.decore-linkbuilding-2 {
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 3.5cm;
+  margin-top: 5.7cm;
+  width: 55%;
+  height: 3cm;
+}
+
+.seo-analyses-body {
+  margin-top: 69.3cm;
+  position: absolute;
+  width: 100%;
+  height: 18cm;
+}
+
+.analyses-mp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3cm;
+  position: absolute;
+  width: 40%;
+  height: 20cm;
+}
+
+.decore-seo-analyses {
+  background-color: #FFDB58;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 19cm;
+  margin-top: 2.7cm;
+  width: 45%;
+  height: 14.5cm;
+}
+
+.decore-sa {
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+
+.decore-sa-2 {
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 3.5cm;
+  margin-top: 5.7cm;
+  width: 55%;
+  height: 3cm;
+}
+
+.pictures-1 {
+  margin-top: 92cm;
+  position: absolute;
+  width: 100%;
+  height: 10cm;
+}
+
+.blog-body {
+  margin-top: 122cm;
+  position: absolute;
+  width: 100%;
+  height: 10cm;
+}
+
+.bottom-mp {
+  position: absolute;
+  margin-top: 148cm;
+  width: 100%;
+  height: 15cm;
+}
+
+.contact-us-body {
+  margin-left: 7cm;
+  margin-top: 6cm;
+  position: absolute;
+  border: 3px solid #FFDB58;
+  width: 60%;
+  height: 20cm;
+}
+
+.about-us-section-1 {
+  margin-top: 4cm;
+  position: absolute;
+  width: 100%;
+  height: 10cm;
+}
+
+.ts-body {
+  margin-top: 1.7cm;
+  position: absolute;
+}
+
+.ts-intro-1 {
+  margin-top: 30cm;
+  position: absolute;
+  width: 100%;
+  height: 20cm;
+}
+
+.galery-tech-seo {
+  margin-top: 6cm;
+  position: absolute;
+  width: 100%;
+  height: 4 0cm;
+}
+
+.bottom-ts {
+  margin-top: 40cm;
+}
+
+.sc-body {
+  position: absolute;
+  margin-top: 4.2cm;
+  width: 100%;
+  height: 25cm;
+}
+
+.blog-sc {
+  position: absolute;
+  margin-top: 29cm;
+  width: 100%;
+  height: 35cm;
+}
+
+.galery-sc {
+  position: absolute;
+  margin-top: 65cm;
+  width: 100%;
+  height: 10cm;
+}
+
+.bottom-sc {
+  margin-top: 80cm;
+  position: absolute;
+  width: 100%;
+}
+
+.linkbuilding-intro {
+  position: absolute;
+  margin-top: 3cm;
+  width: 100%;
+  height: 10cm;
+}
+
+.linkbuilding-body {
+  margin-top: 38cm;
+  position: absolute;
+  width: 100%;
+  height: 20cm;
+}
+
+.bottom-linkbuilding {
+  margin-top: 55cm;
+  position: absolute;
+  width: 100%;
+}
+
+.sa-body {
+  position: absolute;
+  margin-top: 1.7cm;
+  width: 100%;
+  height: 20cm;
+}
+
+.sa-context {
+  position: absolute;
+  margin-top: 30cm;
+  width: 100%;
+  height: 30cm;
+}
+
+.bottom-sa {
+  margin-top: 65cm;
+  position: absolute;
+  width: 100%;
+}
+
+.terms-body {
+  position: absolute;
+  margin-top: 1.7cm;
+  width: 100%;
+  height: 40cm;
+}
+
+.bottom-terms {
+  width: 100%;
+  position: absolute;
+  margin-top: 40cm;
+}/*# sourceMappingURL=index.css.map */
