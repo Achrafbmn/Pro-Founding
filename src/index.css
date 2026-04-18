@@ -2,6 +2,52 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #FFDB58;
 }
+
+/* --- Layout fixes / overrides --- */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { display: flex; flex-direction: column; min-height: 100vh; padding-top: 4rem; }
+main { flex: 1; }
+
+/* Put sections into normal flow instead of absolute positioned stacks */
+.big-intro-1,
+.about-us-body,
+.tech-seo-body,
+.seo-content-body,
+.linkbuiling-body,
+.seo-analyses-body,
+.pictures-1,
+.blog-body,
+.bottom-mp,
+.terms-body { position: static !important; margin: 2rem 0 !important; width: 100% !important; height: auto !important; }
+
+/* Make hero text responsive and smaller */
+.big-intro-1 { padding: 3rem 1rem; font-size: clamp(1.5rem, 4.5vw, 4rem); border: none; height: auto; }
+.big-intro-1-text { display:block; max-width: 1100px; margin: 0 auto; line-height: 1.1; }
+
+/* Articles and images: constrain size and make responsive */
+article img, .pictures-1 img, .gallery img { max-width: 100%; height: auto; display: block; object-fit: cover; }
+article img { max-height: 320px; }
+
+/* Reduce extreme margins used elsewhere */
+.about-us-section-mp, .Technical-SEO-mp, .seo-content-mp, .linkbuilding-mp, .analyses-mp { position: static !important; margin-left: 0 !important; width: auto !important; }
+
+/* Footer tweaks: let footer be last naturally and visually separated */
+.bottom-mp { margin-top: 3rem !important; }
+footer { position: static; }
+
+/* Make rounded avatar sizes consistent */
+.h-12 { height: 3rem !important; }
+.w-15 { width: 3.75rem !important; }
+
+/* Small utility: center container content */
+.container { max-width: 1200px; margin-left: auto; margin-right: auto; }
+
+@media (min-width: 768px) {
+  .big-intro-1 { font-size: clamp(2rem, 5vw, 6rem); padding: 4rem 2rem; }
+}
+
+/* End overrides */
 .big-intro-1 .big-intro-1-H1 {
   -webkit-text-decoration: underline solid 10px rgb(107, 190, 48);
           text-decoration: underline solid 10px rgb(107, 190, 48);
