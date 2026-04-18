@@ -110,33 +110,90 @@ footer {
 
 /* --- Blog and Gallery specific improvements --- */
 /* Blog: reduce card height, tighten spacing, nicer card visual */
-.blog-body { padding: 3rem 1rem; }
-.blog-body .text-center h2 { font-size: 1.875rem; }
-.blog-body .max-w-7xl { max-width: 1100px; }
-.blog-body .grid { gap: 1rem; }
-.blog-body .flex.flex-col.overflow-hidden.rounded-lg.shadow-lg { transition: transform .18s ease, box-shadow .18s ease; }
-.blog-body .flex.flex-col.overflow-hidden.rounded-lg.shadow-lg:hover { transform: translateY(-6px); box-shadow: 0 8px 30px rgba(2,6,23,0.12); }
-.blog-body img { max-height: 220px; height: auto; }
-.blog-body .p-6 { padding: 1rem !important; }
-.blog-body p.text-xl { font-size: 1rem; color: #4b5563; }
+.blog-body {
+  padding: 3rem 1rem;
+}
+.blog-body .text-center h2 {
+  font-size: 1.875rem;
+}
+.blog-body .max-w-7xl {
+  max-width: 1100px;
+}
+.blog-body .grid {
+  gap: 1rem;
+}
+.blog-body .flex.flex-col.overflow-hidden.rounded-lg.shadow-lg {
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+.blog-body .flex.flex-col.overflow-hidden.rounded-lg.shadow-lg:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.12);
+}
+.blog-body img {
+  max-height: 160px !important;
+  height: auto !important;
+  border-radius: 0.5rem;
+}
+.blog-body .p-6 {
+  padding: 0.75rem !important;
+}
+.blog-body p.text-xl {
+  font-size: 0.95rem;
+  color: #4b5563;
+}
 
 /* Gallery: grid layout, smaller images, gentler hover */
-.galery-sc section { padding: 2rem 1rem; }
-.galery-sc .max-w-screen-xl { max-width: 1100px; padding: 1rem; }
-.galery-sc .flex.flex-col.sm\:flex-row { display: grid !important; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; align-items: start; }
-.galery-sc a img { height: 180px !important; max-height: 180px !important; width: 100% !important; object-fit: cover !important; transform: none !important; transition: transform .35s ease, box-shadow .25s ease; }
-.galery-sc a img:hover { transform: translateY(-8px) scale(1.05) !important; box-shadow: 0 10px 30px rgba(2,6,23,0.12); }
-.galery-sc a { display: block; overflow: hidden; border-radius: 0.75rem; }
+.galery-sc section {
+  padding: 2rem 1rem;
+}
+.galery-sc .max-w-screen-xl {
+  max-width: 1100px;
+  padding: 1rem;
+}
+.galery-sc .flex.flex-col.sm\:flex-row {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+.galery-sc a img {
+  height: 120px !important;
+  max-height: 120px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  transform: none !important;
+  transition: transform .25s ease, box-shadow .2s ease;
+}
+.galery-sc a img:hover {
+  transform: translateY(-6px) scale(1.03) !important;
+  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.10);
+}
+.galery-sc a {
+  display: block;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
 
 /* Ensure gallery doesn't overflow on mobile */
 @media (max-width: 640px) {
-  .galery-sc .flex.flex-col.sm\:flex-row { grid-template-columns: repeat(2, 1fr); }
-  .blog-body .grid { grid-template-columns: 1fr; }
+  .galery-sc .flex.flex-col.sm\:flex-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-body .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* small visual polish for headings */
-.blog-body .text-center p { color: #6b7280; }
-.blog-body .text-center h2, .galery-sc h2 { color: #0f172a; }
+.blog-body .text-center p {
+  color: #6b7280;
+}
+.blog-body .text-center h2,
+.galery-sc h2 {
+  color: #0f172a;
+}
 
 .big-intro-1 .big-intro-1-H1 {
   -webkit-text-decoration: underline solid 10px rgb(107, 190, 48);
